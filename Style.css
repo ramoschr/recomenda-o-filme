@@ -1,0 +1,49 @@
+ *{
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box; 
+       font-family: monospace;
+    }
+  
+   body {
+    background-color:#b89999 ;
+        height: 100vh;
+  color: aqua; 
+ font-size: x-large;     
+}
+   
+ ul {
+display: list-item;
+ margin: 0 10px;
+ font-size: 24px;
+text-decoration: none;
+color: blue;
+
+}
+.categoria-videos {
+   display: flex;
+   overflow-x: auto;
+   gap: 20px;
+   }
+   
+   .categoria-videos img {
+   opacity: 0.5;
+   height: 100px;
+   }
+   
+   .categoria-videos img:hover {
+   opacity: 1.0;
+   border: 3px;
+    }
+
+    .btn-social button{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: none;
+      background-color: #00ff08;
+      font-size: 20px;
+      cursor: pointer;
+      margin: 0 5px;
+      transition: .2s;
+      }
